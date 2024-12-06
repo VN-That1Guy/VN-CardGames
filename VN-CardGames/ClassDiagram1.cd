@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="VN_CardGames.Card">
+    <Position X="0.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAAAAABQAAAACAACgAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.BaseGame">
+    <Position X="7.25" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAqAAAAAAAAgABIABABgUAAsAAAAkAIggQKQAAA=</HashCode>
+      <FileName>BaseGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.Program">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.Player">
+    <Position X="0.75" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAgAAAAAEAQAAAAAAAAAAAAAgMIAAQA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.Deck">
+    <Position X="0.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAABAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Deck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.NPC">
+    <Position X="3.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.ApplesOrOranges">
+    <Position X="10.25" Y="7" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAEAAiAAAAAAQAAA=</HashCode>
+      <FileName>ApplesOrOranges.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.HighestMatch">
+    <Position X="7.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAIAAAAQAAA=</HashCode>
+      <FileName>HighestMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.HigherOrLower">
+    <Position X="11.25" Y="11.5" Width="1.5" />
+    <InheritanceLine Type="VN_CardGames.ApplesOrOranges" ManuallyRouted="true">
+      <Path>
+        <Point X="11.875" Y="9.194" />
+        <Point X="11.875" Y="9.405" />
+        <Point X="12" Y="9.405" />
+        <Point X="12" Y="11.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAgAAAAAEAAiAAAAAAAAAA=</HashCode>
+      <FileName>HigherOrLower.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VN_CardGames.Engine">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="VN_CardGames.CardSuit">
+    <Position X="0.75" Y="2.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>CardSuit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
